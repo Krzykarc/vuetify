@@ -12,11 +12,11 @@
                             <v-toolbar color="primary"
                                        dark
                                        flat>
-                                <v-toolbar-title>Login form</v-toolbar-title>
+                                <v-toolbar-title>CaPri Login</v-toolbar-title>
                                 <div class="flex-grow-1"></div>
                                 <v-tooltip bottom>
                                     <template v-slot:activator="{ on }">
-                                        <v-btn :href="source"
+                                        <v-btn href="#"
                                                icon
                                                large
                                                target="_blank"
@@ -69,12 +69,8 @@ import { Vue, Component, Prop } from 'vue-property-decorator';
 
 @Component
 export default class LoginPanel extends Vue {
-
 }
 </script>
 <style lang="scss" scoped>
-.test1 {
-  color: #555555;
-}
 </style>
 
